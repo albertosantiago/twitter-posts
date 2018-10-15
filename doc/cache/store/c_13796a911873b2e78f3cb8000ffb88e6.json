@@ -1,0 +1,137 @@
+{
+    "name": "App\\Console\\Commands\\Twitter\\SearchReplies",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Console\\Commands\\Twitter",
+    "file": "..\/src\/app\/Console\/Commands\/Twitter\/SearchReplies.php",
+    "relative_file": null,
+    "hash": "1d22d885be04eada3db34943a7f760be1b979b5c",
+    "parent": "App\\Console\\Commands\\BaseCommand",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseCommand": "App\\Console\\Commands\\BaseCommand"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "systemLog": {
+            "name": "systemLog",
+            "line": 9,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "true"
+                    ],
+                    "attributes": {
+                        "startLine": 9,
+                        "endLine": 9,
+                        "namespacedName": {
+                            "nodeType": "Name_FullyQualified",
+                            "parts": [
+                                "App",
+                                "Console",
+                                "Commands",
+                                "Twitter",
+                                "true"
+                            ],
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9
+                            }
+                        }
+                    }
+                },
+                "attributes": {
+                    "startLine": 9,
+                    "endLine": 9
+                }
+            },
+            "errors": []
+        },
+        "signature": {
+            "name": "signature",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "twitter:search-replies",
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 11,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        },
+        "description": {
+            "name": "description",
+            "line": 12,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "Busqueda de respuestas desde twitter",
+                "attributes": {
+                    "startLine": 12,
+                    "endLine": 12,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 14,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "start": {
+            "name": "start",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

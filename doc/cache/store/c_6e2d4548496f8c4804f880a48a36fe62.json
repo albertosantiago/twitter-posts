@@ -1,0 +1,190 @@
+{
+    "name": "App\\Api\\TwitterManager",
+    "line": 14,
+    "short_desc": "Twitter Rest\/Api Manager",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Alberto",
+                "Santiago",
+                "<chucho@wetdog.co>"
+            ]
+        ]
+    },
+    "namespace": "App\\Api",
+    "file": "..\/src\/app\/Api\/TwitterManager.php",
+    "relative_file": null,
+    "hash": "d46b4ed0fe4d5b03b59b0290e47beb75cb4daa70",
+    "parent": null,
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Util": "App\\Api\\Util",
+        "Mongolico": "Mongolico",
+        "Log": "Log",
+        "Session": "Session",
+        "Input": "Input",
+        "Request": "Illuminate\\Http\\Request"
+    },
+    "errors": [],
+    "interfaces": {
+        "App\\Api\\SocialManager": "App\\Api\\SocialManager"
+    },
+    "traits": [],
+    "properties": {
+        "withRelations": {
+            "name": "withRelations",
+            "line": 20,
+            "short_desc": "Internal var to indicate the load and update of the user's relations at the beginning.",
+            "long_desc": "",
+            "hint": [],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "false"
+                    ],
+                    "attributes": {
+                        "startLine": 20,
+                        "endLine": 20,
+                        "namespacedName": {
+                            "nodeType": "Name_FullyQualified",
+                            "parts": [
+                                "App",
+                                "Api",
+                                "false"
+                            ],
+                            "attributes": {
+                                "startLine": 20,
+                                "endLine": 20
+                            }
+                        }
+                    }
+                },
+                "attributes": {
+                    "startLine": 20,
+                    "endLine": 20
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 25,
+            "short_desc": "Initialize the manager.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getLoginURL": {
+            "name": "getLoginURL",
+            "line": 27,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "checkCredentials": {
+            "name": "checkCredentials",
+            "line": 46,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setWithRelations": {
+            "name": "setWithRelations",
+            "line": 75,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "withRelations": {
+                    "name": "withRelations",
+                    "line": 75,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "updateUser": {
+            "name": "updateUser",
+            "line": 80,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "prevUser": {
+                    "name": "prevUser",
+                    "line": 80,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getUser": {
+            "name": "getUser",
+            "line": 90,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

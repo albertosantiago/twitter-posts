@@ -1,0 +1,138 @@
+{
+    "name": "App\\Console\\Kernel",
+    "line": 9,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Console",
+    "file": "..\/src\/app\/Console\/Kernel.php",
+    "relative_file": null,
+    "hash": "ffa5b0b94a1e767ffe108bc23704bd9190bb6d93",
+    "parent": "Illuminate\\Foundation\\Console\\Kernel",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Schedule": "Illuminate\\Console\\Scheduling\\Schedule",
+        "ConsoleKernel": "Illuminate\\Foundation\\Console\\Kernel",
+        "CronTask": "App\\Model\\CronTask"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "commands": {
+            "name": "commands",
+            "line": 11,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "key": null,
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "parts": [
+                                    "App",
+                                    "Console",
+                                    "Commands",
+                                    "Twitter",
+                                    "SearchReplies"
+                                ],
+                                "attributes": {
+                                    "startLine": 12,
+                                    "endLine": 12
+                                }
+                            },
+                            "name": "class",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12
+                            }
+                        },
+                        "byRef": false,
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 11,
+                    "endLine": 13,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "schedule": {
+            "name": "schedule",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "schedule": {
+                    "name": "schedule",
+                    "line": 15,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "Illuminate",
+                            "Console",
+                            "Scheduling",
+                            "Schedule"
+                        ],
+                        "attributes": {
+                            "startLine": 15,
+                            "endLine": 15
+                        }
+                    },
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "commands": {
+            "name": "commands",
+            "line": 30,
+            "short_desc": "Esto mola, es para crear comandos con un closure.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

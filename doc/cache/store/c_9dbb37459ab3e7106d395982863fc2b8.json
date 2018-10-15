@@ -1,0 +1,25 @@
+{
+    "name": "App\\Model\\Tweet",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Model",
+    "file": "..\/src\/app\/Model\/Tweet.php",
+    "relative_file": null,
+    "hash": "ba2b26588904b5a195c65043bf09af6c13f1e754",
+    "parent": "Jenssegers\\Mongodb\\Eloquent\\Model",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Eloquent": "Jenssegers\\Mongodb\\Eloquent\\Model"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

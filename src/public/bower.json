@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "authors": [
+    "Alberto Santiago Chinchilla <chucho@wetdog.co>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "emojionearea": "^3.0.0",
+    "webcomponentsjs": "^1.0.0"
+  }
+}

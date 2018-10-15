@@ -1,0 +1,52 @@
+{
+    "name": "App\\Http\\Controllers\\Admin\\CMS\\PostController",
+    "line": 11,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers\\Admin\\CMS",
+    "file": "..\/src\/app\/Http\/Controllers\/Admin\/CMS\/PostController.php",
+    "relative_file": null,
+    "hash": "4c6c021e3db23b48f267a530a8e76b08cb90b285",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "Request": "Illuminate\\Http\\Request",
+        "Post": "App\\Model\\Post",
+        "Datatables": "Datatables",
+        "DB": "DB",
+        "Session": "Session"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "index": {
+            "name": "index",
+            "line": 15,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "PUBLISHER_PAGE": {
+            "name": "PUBLISHER_PAGE",
+            "line": 13,
+            "short_desc": "",
+            "long_desc": ""
+        }
+    }
+}

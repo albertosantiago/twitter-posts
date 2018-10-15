@@ -1,0 +1,85 @@
+{
+    "name": "App\\Model\\ContactMessage",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Model",
+    "file": "..\/src\/app\/Model\/ContactMessage.php",
+    "relative_file": null,
+    "hash": "7e322df13f0c99c4fbf338057d662b07738c09b7",
+    "parent": "Jenssegers\\Mongodb\\Eloquent\\Model",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Eloquent": "Jenssegers\\Mongodb\\Eloquent\\Model"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "collection": {
+            "name": "collection",
+            "line": 7,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "value": "contact_messages",
+                "attributes": {
+                    "startLine": 7,
+                    "endLine": 7,
+                    "kind": 1
+                }
+            },
+            "errors": []
+        },
+        "dates": {
+            "name": "dates",
+            "line": 8,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "value": "created_at",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8,
+                                "kind": 1
+                            }
+                        },
+                        "byRef": false,
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        }
+                    }
+                ],
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8,
+                    "kind": 2
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": [],
+    "constants": []
+}

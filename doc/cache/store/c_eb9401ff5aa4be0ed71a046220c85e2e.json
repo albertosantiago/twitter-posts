@@ -1,0 +1,252 @@
+{
+    "name": "App\\Api\\SessionManager",
+    "line": 16,
+    "short_desc": "Session management for users from social networks.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Alberto",
+                "Santiago",
+                "<chucho@wetdog.co>"
+            ]
+        ]
+    },
+    "namespace": "App\\Api",
+    "file": "..\/src\/app\/Api\/SessionManager.php",
+    "relative_file": null,
+    "hash": "232925002fb0860db67895d23023e407df6f041a",
+    "parent": null,
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Util": "App\\Api\\Util",
+        "Mongolico": "Mongolico",
+        "Log": "Log",
+        "Session": "Session",
+        "Input": "Input",
+        "Request": "Illuminate\\Http\\Request",
+        "SocialManager": "App\\Api\\SocialManager",
+        "UserRepository": "App\\Api\\UserRepository"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "user": {
+            "name": "user",
+            "line": 19,
+            "short_desc": "Internal user of the SessionManager (Singleton)",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "name": {
+                    "nodeType": "Name",
+                    "parts": [
+                        "null"
+                    ],
+                    "attributes": {
+                        "startLine": 19,
+                        "endLine": 19,
+                        "namespacedName": {
+                            "nodeType": "Name_FullyQualified",
+                            "parts": [
+                                "App",
+                                "Api",
+                                "null"
+                            ],
+                            "attributes": {
+                                "startLine": 19,
+                                "endLine": 19
+                            }
+                        }
+                    }
+                },
+                "attributes": {
+                    "startLine": 19,
+                    "endLine": 19
+                }
+            },
+            "errors": []
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 27,
+            "short_desc": "Initializes SessionManager",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "socialManager": {
+                    "name": "socialManager",
+                    "line": 27,
+                    "short_desc": "Instance of SocialManager. Example: TwitterManager",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "Api",
+                            "SocialManager"
+                        ],
+                        "attributes": {
+                            "startLine": 27,
+                            "endLine": 27
+                        }
+                    },
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "userRepository": {
+                    "name": "userRepository",
+                    "line": 27,
+                    "short_desc": "Instance of UserRepository",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": {
+                        "nodeType": "Name_FullyQualified",
+                        "parts": [
+                            "App",
+                            "Api",
+                            "UserRepository"
+                        ],
+                        "attributes": {
+                            "startLine": 27,
+                            "endLine": 27
+                        }
+                    },
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "loadFromSession": {
+            "name": "loadFromSession",
+            "line": 35,
+            "short_desc": "Load the User from session recovering it from the DB",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isLogged": {
+            "name": "isLogged",
+            "line": 47,
+            "short_desc": "Check if the user is already logged.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCurrentUserId": {
+            "name": "getCurrentUserId",
+            "line": 64,
+            "short_desc": "Return the current user ID",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCurrentUser": {
+            "name": "getCurrentUser",
+            "line": 76,
+            "short_desc": "Return the current user",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "update": {
+                    "name": "update",
+                    "line": 76,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "boolean",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "false",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getGuestUser": {
+            "name": "getGuestUser",
+            "line": 89,
+            "short_desc": "Return a instance of the guest user",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "logout": {
+            "name": "logout",
+            "line": 100,
+            "short_desc": "Clean session data",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

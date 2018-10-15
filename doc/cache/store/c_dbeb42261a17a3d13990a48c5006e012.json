@@ -1,0 +1,63 @@
+{
+    "name": "App\\Http\\Controllers\\PagesController",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Http\\Controllers",
+    "file": "..\/src\/app\/Http\/Controllers\/PagesController.php",
+    "relative_file": null,
+    "hash": "736138779091f5240d11721c90a266ea1f8f3c2f",
+    "parent": "App\\Http\\Controllers\\Controller",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Request": "Illuminate\\Http\\Request",
+        "Response": "Illuminate\\Http\\Response",
+        "Controller": "App\\Http\\Controllers\\Controller",
+        "SocialManager": "App\\Api\\SocialManager",
+        "Session": "Session",
+        "Log": "Log",
+        "Validator": "Validator",
+        "Input": "Input",
+        "Mongolico": "Mongolico",
+        "View": "View",
+        "Twitter": "Twitter",
+        "Carbon": "Carbon\\Carbon"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "view": {
+            "name": "view",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "templateName": {
+                    "name": "templateName",
+                    "line": 19,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

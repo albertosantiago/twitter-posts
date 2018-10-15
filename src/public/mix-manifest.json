@@ -1,0 +1,13 @@
+{
+  "/js/vendor.js": "/js/vendor.js",
+  "/js/post.js": "/js/post.js",
+  "/js/editor.js": "/js/editor.js",
+  "/css/app.css": "/css/app.css",
+  "/css/tweets.css": "/css/tweets.css",
+  "/js/layout.js": "/js/layout.js",
+  "/js/welcome.js": "/js/welcome.js",
+  "/js/tinymce.js": "/js/tinymce.js",
+  "/js/post_list.js": "/js/post_list.js",
+  "/js/contact.js": "/js/contact.js",
+  "/js/manifest.js": "/js/manifest.js"
+}

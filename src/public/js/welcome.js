@@ -1,0 +1,1 @@
+webpackJsonp([4],{433:function(n,t,o){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var c=o(2),i=o.n(c);o(49);o(188),i()(function(){i()("#login-button").click(function(){i.a.oauthpopup({path:"/twitter/login",callback:function(){window.location="/my-posts/new"}})})})},900:function(n,t,o){n.exports=o(433)}},[900]);

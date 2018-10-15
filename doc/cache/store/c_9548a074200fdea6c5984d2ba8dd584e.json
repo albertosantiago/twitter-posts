@@ -1,0 +1,23 @@
+{
+    "name": "App\\Api\\SocialManager",
+    "line": 3,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Api",
+    "file": "..\/src\/app\/Api\/SocialManager.php",
+    "relative_file": null,
+    "hash": "df6601ccd2d72fa3201dd78dbb29fc996308f627",
+    "parent": null,
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

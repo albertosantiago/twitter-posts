@@ -1,0 +1,63 @@
+{
+    "name": "App\\Providers\\AppServiceProvider",
+    "line": 17,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Providers",
+    "file": "..\/src\/app\/Providers\/AppServiceProvider.php",
+    "relative_file": null,
+    "hash": "d46e41eef3f90b4357514f9f18028408e5b785a5",
+    "parent": "Illuminate\\Support\\ServiceProvider",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ServiceProvider": "Illuminate\\Support\\ServiceProvider",
+        "SocialManager": "App\\Api\\SocialManager",
+        "TwitterManager": "App\\Api\\TwitterManager",
+        "SessionManager": "App\\Api\\SessionManager",
+        "UserRepository": "App\\Api\\UserRepository",
+        "Request": "Illuminate\\Http\\Request",
+        "Session": "Session",
+        "Twitter": "Thujohn\\Twitter\\Twitter",
+        "TwitterStubService": "App\\Api\\TwitterStubService",
+        "Form": "Form"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "boot": {
+            "name": "boot",
+            "line": 19,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "register": {
+            "name": "register",
+            "line": 24,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

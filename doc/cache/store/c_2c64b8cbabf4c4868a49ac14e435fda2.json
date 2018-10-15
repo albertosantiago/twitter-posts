@@ -1,0 +1,25 @@
+{
+    "name": "App\\Model\\CronTask",
+    "line": 6,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "App\\Model",
+    "file": "..\/src\/app\/Model\/CronTask.php",
+    "relative_file": null,
+    "hash": "9645a1d85d68b6a625568e991546f55691446d8c",
+    "parent": "Jenssegers\\Mongodb\\Eloquent\\Model",
+    "modifiers": null,
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Eloquent": "Jenssegers\\Mongodb\\Eloquent\\Model"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}
