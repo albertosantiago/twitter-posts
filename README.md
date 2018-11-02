@@ -15,9 +15,7 @@ composer install
 
 Launch mongodb on a terminal, launch php server
 
-cd mongodb/bin/
 sudo ./mongod
 
-cd backend
-sudo php artisan serve
+php artisan serve
 
