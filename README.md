@@ -1,5 +1,9 @@
 # Twitter Posts
 
+## Description
+
+Blogging platform done with Laravel, React and MongoDB focus on twitter users.
+
 ## Development Installation
 
 1) Update composer and node:
@@ -17,7 +21,3 @@ sudo ./mongod
 cd backend
 sudo php artisan serve
 
-
-Description
-
-Blogging platform done with Laravel, React and MongoDB focus on twitter users.
