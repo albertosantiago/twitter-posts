@@ -8,14 +8,15 @@ Blogging platform done with Laravel, React and MongoDB focus on twitter users.
 
 1) Update composer and node:
 
-npm install
-composer install
+```
+  npm install
+  composer install
+```
 
 2) Download and configure MongoDB
 
-Launch mongodb on a terminal, launch php server
-
-sudo ./mongod
-
-php artisan serve
-
+ Launch mongodb on a terminal, launch php server
+  ```
+  sudo ./mongod
+  php artisan serve
+  ```
